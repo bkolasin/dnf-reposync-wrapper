@@ -1,0 +1,10 @@
+[epel_epel-next-9]
+name=Extra Packages for Enterprise Linux 9 - Next - $basearch
+# It is much more secure to use the metalink, but if you wish to use a local mirror
+# place its address here.
+baseurl=https://ftp-osl.osuosl.org/pub/fedora-epel/next/9/Everything/$basearch/
+#metalink=https://mirrors.fedoraproject.org/metalink?repo=epel-next-$releasever&arch=$basearch&infra=$infra&content=$contentdir
+enabled=1
+gpgcheck=1
+countme=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever
